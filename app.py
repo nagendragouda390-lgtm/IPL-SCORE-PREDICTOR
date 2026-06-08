@@ -1,5 +1,7 @@
 import streamlit as st
 import joblib
+import os
+st.write(os.listdir("."))
 
 model = joblib.load("ipl_score_predictor.pkl")
 bat_enc = joblib.load("batting_team_encoder.pkl")
