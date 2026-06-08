@@ -3,7 +3,7 @@ import joblib
 import os
 st.write(os.listdir("."))
 
-model = joblib.load("ipl_score_predictor.pkl")
+model = joblib.load("final_score_predictor.pkl")
 bat_enc = joblib.load("batting_team_encoder.pkl")
 bowl_enc = joblib.load("bowling_team_encoder.pkl")
 
