@@ -25,7 +25,7 @@ bowling_team = st.selectbox(
 
 current_over = st.number_input(
     "Current Ball",
-    min_value=0.0,
+    min_value=30.0,
     max_value=120.0,
     value=10.0,
     step=1.0
